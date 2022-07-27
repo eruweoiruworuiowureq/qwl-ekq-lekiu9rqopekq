@@ -6,7 +6,9 @@ from helpers import *
 
 keys = ["5397412980:AAFmG7O29zA6_8BWm0-mn-S7-DcKjeXZ6bw",
 "5307252026:AAFItd71AZqkcNntRtqrBn5qt_56FyQ8Qmo",
-"5458105220:AAHQIi3Tyl6-c9jy0RrItoUhi8ZYjP8gSRQ"
+"5458105220:AAHQIi3Tyl6-c9jy0RrItoUhi8ZYjP8gSRQ",
+"549163973:AAHgzJZS3Rv8T5LDiVXCiHmqlSB7uZKuSqY",
+ "5567454588:AAErpwtVvRzywKzlltLdZKYwUgajJBWPh6c"
 ]
 
 def update_page(the_bot, call, text, kbrd):
