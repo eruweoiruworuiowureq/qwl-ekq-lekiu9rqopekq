@@ -23,6 +23,7 @@ def on_inline_command(cmd, bot):
     def decorator(handler):
         @bot.callback_query_handler(lambda call: re.match(regex, call.data) is not None)
         def command_handler(call: telebot.types.CallbackQuery):
+            print(call.message.chat.id, call.data)
             cmd_arg = re.match(regex, call.data).groups()[0]
             handler(cmd_arg, call)
     return decorator
